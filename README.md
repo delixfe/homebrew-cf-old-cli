@@ -1,0 +1,9 @@
+# Delixfe Cf-old-cli
+
+## How do I install these formulae?
+`brew install delixfe/cf-old-cli/<formula>`
+
+Or `brew tap delixfe/cf-old-cli` and then `brew install <formula>`.
+
+## Documentation
+`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
