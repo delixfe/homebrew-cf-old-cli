@@ -5,12 +5,10 @@ class CfCliAT6490 < Formula
   version '6.49.0'
 
   if OS.mac?
-    head 'https://packages.cloudfoundry.org/edge?arch=macosx64&source=homebrew'
-    url 'https://packages.cloudfoundry.org/homebrew/cf-6.49.0.tgz'
+    url 'https://github.com/cloudfoundry/cli/releases/download/v6.49.0/cf-cli_6.49.0_osx.tgz'
     sha256 '7dc6f0e32358b86016a97c3e5c987024169cac5512df1a548aceab9ebad316c7'
   elsif OS.linux?
-    head 'https://packages.cloudfoundry.org/edge?arch=linux64&source=homebrew'
-    url 'https://packages.cloudfoundry.org/stable?release=linux64-binary&version=6.49.0&source=homebrew'
+    url 'https://github.com/cloudfoundry/cli/releases/download/v6.49.0/cf-cli_6.49.0_linux_x86-64.tgz'
     sha256 'fafcd4a701897c5eb44168ca7bd0c4502e442ea65324ffaca71b0a4b344c9a99'
   end
 
